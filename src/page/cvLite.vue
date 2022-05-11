@@ -71,10 +71,10 @@ export default {
   width: 700px;
   background-color: white;
   border-radius: 50px;
-  color: #115e75;
+  color: var(--baseColor);
   margin-bottom: 30px;
   box-shadow: 10px 10px 5px 0px #7e7e7e46;
-  border: 5px solid #115e75;
+  border: 5px solid var(--baseColor);
 }
 .content {
   position: absolute;

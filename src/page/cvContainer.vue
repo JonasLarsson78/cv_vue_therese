@@ -18,7 +18,7 @@
           {{ content.place }}
           <a
             class="footerLinkText"
-            href="https://github.com/JonasLarsson78/cv_vue"
+            href="https://github.com/JonasLarsson78/cv_vue_therese"
             target="_blank"
             >{{ content.github }}</a
           >
@@ -48,7 +48,7 @@
           {{ content.place }}
           <a
             class="footerLinkText"
-            href="https://github.com/JonasLarsson78/cv_vue"
+            href="https://github.com/JonasLarsson78/cv_vue_therese"
             target="_blank"
             >{{ content.github }}</a
           >
@@ -145,7 +145,7 @@ export default {
   bottom: 10px;
   left: 50%;
   transform: translate(-50%);
-  color: #115e75;
+  color: var(--baseColor);
   z-index: 100;
 }
 .footerLink {
@@ -154,12 +154,12 @@ export default {
   bottom: 23px;
   left: 50%;
   transform: translate(-50%);
-  color: #115e75;
+  color: var(--baseColor);
   z-index: 100;
 }
 .footerLinkText {
   text-decoration: none;
-  color: #115e75;
+  color: var(--baseColor);
   font-weight: bold;
 }
 .next {
@@ -167,7 +167,7 @@ export default {
   bottom: 50px;
   left: 50%;
   transform: translate(-50%);
-  color: #115e75;
+  color: var(--baseColor);
   cursor: pointer;
 }
 .next:hover {
@@ -179,14 +179,14 @@ export default {
   left: 10px;
   width: 20px;
   transform: rotate(180deg);
-  filter: #115e75;
+  filter: var(--baseColor);
 }
 .arrowImgPrev {
   position: relative;
   top: 5px;
   left: -10px;
   width: 20px;
-  filter: #115e75;
+  filter: var(--baseColor);
 }
 @media only screen and (max-device-width: 901px) {
   .cvContainer {

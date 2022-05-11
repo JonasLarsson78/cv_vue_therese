@@ -2,9 +2,7 @@ export default {
   personalData: {
     name: 'Therese Selemba',
     title: 'Butiksbiträde',
-    image: 'https://jonas78dev-5798.restdb.io/media/5e6688809ce53e0400013216/',
     contacts: [
-      { type: 'webpage', value: 'jlarsson.nu' },
       { type: 'email', value: 'therese.hbg@gmail.com' },
       { type: 'phone', value: '0707345942' },
 
@@ -51,6 +49,16 @@ export default {
       title: 'Arbetslivserfarenhet',
       icon: 'archive',
       items: [
+        {
+          title: 'Butiksbiträde',
+          company: 'Blomsterboda - Ica Maxi Berga',
+          datesBetween: '2022 - Nuvarande',
+          descriptionTags: [
+            'Blommor',
+            'Krukor',
+            'Tillbehör',
+          ],
+        },
         {
           title: 'Receptionist',
           company: 'Helsingborgs Stad',

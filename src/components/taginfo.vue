@@ -57,13 +57,13 @@ export default {
 }
 .tag {
   height: 30px;
-  background-color: #115e75;
+  background-color: var(--baseColor);
   width: 150px;
   border-radius: 15px;
   margin: 5px;
 }
 .tag:hover {
-  background-color: #1881a1;
+  background-color: var(--baseColor);
 }
 .tagText {
   position: relative;
@@ -89,7 +89,7 @@ export default {
 .close {
   cursor: pointer;
   margin-top: 10px;
-  background-color: #115e75;
+  background-color: var(--baseColor);
   color: white;
   text-align: center;
   padding: 3px;

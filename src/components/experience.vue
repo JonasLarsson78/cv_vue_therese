@@ -85,7 +85,7 @@ td {
   position: relative;
   top: -17px;
   left: 50px;
-  color: #115e75;
+  color: var(--baseColor);
   text-align: left;
   font-size: 20px;
   font-weight: bold;
@@ -95,7 +95,7 @@ td {
   top: 10px;
   left: -320px;
   width: 26px;
-  filter: #115e75;
+  filter: var(--baseColor);
 }
 .experienceImgLink {
   position: relative;
@@ -116,7 +116,7 @@ td {
 .edLink {
   margin-left: 5px;
   text-decoration: none;
-  color: #115e75;
+  color: var(--baseColor);
 }
 .edLink:hover {
   font-weight: bold;
@@ -127,7 +127,7 @@ td {
 }
 .tag {
   height: 30px;
-  background-color: #115e75;
+  background-color: var(--baseColor);
   width: 150px;
   border-radius: 15px;
   margin: 5px;

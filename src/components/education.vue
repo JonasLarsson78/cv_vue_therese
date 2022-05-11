@@ -95,7 +95,7 @@ td {
   position: relative;
   top: -17px;
   left: 50px;
-  color: #115e75;
+  color: var(--baseColor);
   text-align: left;
   font-size: 20px;
   font-weight: bold;
@@ -105,7 +105,7 @@ td {
   top: 10px;
   left: -320px;
   width: 30px;
-  filter: #115e75;
+  filter: var(--baseColor);
 }
 .educationImgLink {
   position: relative;
@@ -126,7 +126,7 @@ td {
 .edLink {
   margin-left: 5px;
   text-decoration: none;
-  color: #115e75;
+  color: var(--baseColor);
 }
 .edLink:hover {
   font-weight: bold;

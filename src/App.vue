@@ -18,6 +18,10 @@ export default {
   --procentinitiativtagande: 0%;
   --procentsamarbetsvillig: 0%;
   --procentkundkontakt: 0%;
+
+  --backGround: #36083A;
+  --baseColor: #6D1175;
+  --hoverColor: #A219AE;
 }
 
 * {
@@ -25,7 +29,7 @@ export default {
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: black;
+  background-color: var(--backGround);
   background-image: url(./assets/bright-squares.png);
 }
 #app {

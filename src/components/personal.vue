@@ -3,7 +3,7 @@
     <div>
       <img
         class="personalImg"
-        src="../assets/jonas.jpg"
+        src="../assets/therese.jpg"
         @mouseenter="hoverImg(true)"
       />
       <div class="personalName">
@@ -190,7 +190,7 @@ export default {
 .personalContainer {
   width: 250px;
   min-height: 500px;
-  background-color: #115e75;
+  background-color: var(--baseColor);
   border-radius: 5px;
 }
 .personalImg {
@@ -250,7 +250,7 @@ export default {
   cursor: pointer;
   width: 100%;
   margin-top: 10px;
-  background-color: #115e75;
+  background-color: var(--baseColor);
   color: white;
   text-align: center;
   padding: 5px;

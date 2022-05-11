@@ -40,7 +40,7 @@ export default {
   position: relative;
   top: -17px;
   left: 50px;
-  color: #115e75;
+  color: var(--baseColor);
   text-align: left;
   font-size: 20px;
   font-weight: bold;
@@ -50,7 +50,7 @@ export default {
   top: 10px;
   left: -320px;
   width: 25px;
-  filter: #115e75;
+  filter: var(--baseColor);
 }
 .tagContainer {
   display: flex;
@@ -58,7 +58,7 @@ export default {
 }
 .tag {
   height: 30px;
-  background-color: #115e75;
+  background-color: var(--baseColor);
   width: 150px;
   border-radius: 15px;
   margin: 5px;

@@ -91,7 +91,7 @@ export default {
   z-index: 10000;
 }
 .searchBack {
-  background-color: #115e75;
+  background-color: var(--baseColor);
   height: 23px;
   cursor: pointer;
 }
@@ -100,13 +100,13 @@ export default {
   height: 23px;
   font-size: 18px;
   padding: 3px;
-  border: 3px solid #115e75;
+  border: 3px solid var(--baseColor);
   outline: none;
 }
 .close {
   cursor: pointer;
   margin-top: 10px;
-  background-color: #115e75;
+  background-color: var(--baseColor);
   color: white;
   text-align: center;
   padding: 3px;
