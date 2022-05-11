@@ -3,7 +3,7 @@
 ## Min Cv
 
 Detta är min cv som är skriven i Javascrip och med hjälp av ramverket Vue.js.
-[See sidan live här](https://mincv.nu/).
+[See sidan live här](https://therese-cv.web.app/).
 
 ## Project setup
 
