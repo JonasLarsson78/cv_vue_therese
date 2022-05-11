@@ -139,6 +139,7 @@ td {
 @media only screen and (max-device-width: 901px) {
   .educationContanier {
     width: 330px;
+    height: 60px;
   }
   .educationImg {
     left: -150px;

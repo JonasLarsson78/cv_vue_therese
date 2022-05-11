@@ -281,7 +281,6 @@ export default {
 
   .personalImg {
     width: 70px;
-    height: 70px;
     border-radius: 35px;
     margin-top: 20px;
   }
