@@ -260,7 +260,7 @@ export default {
   outline: none;
 }
 .closeBtn:hover {
-  background-color: #1881a1;
+  background-color: var(--hoverColor);
 }
 .end {
   padding-bottom: 20px;

@@ -96,7 +96,7 @@ export default {
   border-radius: 5px;
 }
 .close:hover {
-  background-color: #1881a1;
+  background-color: var(--hoverColor);
 }
 .from {
   font-size: 12px;
